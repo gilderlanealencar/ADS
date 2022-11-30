@@ -76,15 +76,15 @@ Aluno myarray[20];
 int main() {
 
 	Aluno aluno1;
-	aluno1.matricula = 500;
+	aluno1.matricula = 10;
 	aluno1.nome = "Gilderlane";
 
 	Aluno aluno2;
-	aluno2.matricula = 20;
+	aluno2.matricula = 60;
 	aluno2.nome = "Gabriela";
 
 	Aluno aluno3;
-	aluno3.matricula = 200;
+	aluno3.matricula = 100;
 	aluno3.nome = "Gersiane";
 
 	myarray[0] = aluno1;
