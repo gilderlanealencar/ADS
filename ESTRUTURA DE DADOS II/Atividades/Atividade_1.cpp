@@ -43,3 +43,4 @@ int main(){
     Arv a3 = arv_cria(3,arv_vazia(),arv_vazia());
     Arv a4 = arv_cria(1,a2,a3);
     arv_imprime(arv2);
+}
