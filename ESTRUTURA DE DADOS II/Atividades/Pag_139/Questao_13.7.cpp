@@ -19,7 +19,6 @@ int qtd_nos(NoArv* A) {
     else return 1 + qtd_nos(A->esq) + qtd_nos(A->dir);
 }
 
-// função da questão 13.6
 int eb(NoArv* A) {
     return qtd_nos(A) == (2 * (altura(A) + 1) - 1);
 }
